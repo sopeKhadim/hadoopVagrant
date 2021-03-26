@@ -29,8 +29,9 @@ This machine contains the following technologies :
 
 ## Get Started
 You can start/stop the hadoop services by the following commands : 
-* HDFS - start-dfs.sh / stop-dfs.sh
-* YARN - start-yarn.sh /stop-yarn.sh
+* HDFS - ``start-dfs.sh / stop-dfs.sh``
+* YARN - ``start-yarn.sh /stop-yarn.sh``  
+* All Hadoop services - ``start-all.sh``  
 You can run ``jps`` to see all the relevant processes running.  
 You can also run ``hdfs dfs -ls /user/vagrant`` to confirm HDFS is up and running.  
 You can connect to mysql with as root with the password : ``Pa$$w0rd``  
