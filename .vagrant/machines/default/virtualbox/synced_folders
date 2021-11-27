@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/shareFolder":{"guestpath":"/home/vagrant/shareFolder","hostpath":"/home/dmboup/vagrantShareFolder","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/dmboup/gitProjects/hadoopVagrant","disabled":false,"__vagrantfile":true}}}
