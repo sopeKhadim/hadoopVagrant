@@ -2,12 +2,10 @@
 
 * **Version** : 1.1
 * **OS** : Centos 7
-* Last modified : 28/11/2021 
+* Last modified : 28/11/2021
 
 ## Description
-This Hadoop Vagrant Virtual Machine ...
-..
-..  
+Hadoop Vagrant Virtual Machine.
 
 ## Components
 This machine contains the following technologies :
@@ -31,7 +29,7 @@ This machine contains the following technologies :
 * Stop Vagrant VM with ``vagrant halt``
 
 ## Get Started
-You can start/stop the hadoop services by the following commands : 
+You can start/stop the hadoop services by the following commands :
 * HDFS - ``start-dfs.sh / stop-dfs.sh``
 * YARN - ``start-yarn.sh /stop-yarn.sh``  
 * All Hadoop services - ``start-all.sh``  
