@@ -1,7 +1,9 @@
 # Hadoop Vagrant Virtual Machine
-* **Version** : 1.0
+
+* **Version** : 1.1
 * **OS** : Centos 7
-* Last modified : 26/03/2021 
+* Last modified : 28/11/2021 
+
 ## Description
 This Hadoop Vagrant Virtual Machine ...
 ..
@@ -14,7 +16,8 @@ This machine contains the following technologies :
 * **Hadoop** 3.2.1
 * **Spark** 2.4.5
 * **Hive** 3.1.0
-* **MySQL** 5.7.33 
+* **MySQL** 5.7.33
+* **Sqoop** 1.4.7
 
 ## Installation
 * Install **Virtual box** from https://www.virtualbox.org/
@@ -34,8 +37,7 @@ You can start/stop the hadoop services by the following commands :
 * All Hadoop services - ``start-all.sh``  
 You can run ``jps`` to see all the relevant processes running.  
 You can also run ``hdfs dfs -ls /user/vagrant`` to confirm HDFS is up and running.  
-You can connect to mysql with as root with the password : ``Pa$$w0rd``  
+You can connect to MySQL as root with the password : ``Pa$$w0rd``  
 
 ## License
 . None
-
