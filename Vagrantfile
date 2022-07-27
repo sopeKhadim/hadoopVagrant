@@ -10,6 +10,6 @@ Vagrant.configure("2") do |config|
   
   config.vm.provider "virtualbox" do |vb|
     vb.cpus = "4" # you can increase you cpu to 4
-    vb.memory = "4048"
+    vb.memory = "6096"
   end
 end
