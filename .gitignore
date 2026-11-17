@@ -1,0 +1,5 @@
+# Local VM state created by Vagrant (machine-specific)
+.vagrant/
+
+# Host <-> VM shared folder (see Vagrantfile)
+partage/
